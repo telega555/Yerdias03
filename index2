@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="/sryle2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<ul id="navbar">
+    <li><a href="/" >Люди</a></li>
+    <li><a href="/" >Профиль</a></li>
+    <li><a href="/about">О нас</a></li>
+    <li><a href="/Map" >Крата</a> </li>
+    <a href="/#" class="info2">Sign up</a>
+    <a href="/#" class="info1">Login</a>
+</ul>
+<div class="block">
+<fieldset STYLE="width: 400px" class="info">
+    <legend>Регистрация</legend>
+    <label class="name">Имя<input type="text" required></label>
+    <label>E-mail<input type="email" required></label>
+    <label>Password<input type="password" required></label>
+    <button class="btn">Отправить</button>
+</fieldset>
+</div>
+</body>
+</html>
